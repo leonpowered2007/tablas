@@ -1,0 +1,36 @@
+Package.Json
+============
+
+primero ejecuto en el raiz del proyecto "npm init". Esto crea el package.json.
+Luego se pueden editar los parametros del package o bien instalar todas las dependecias necesarias que se van a ir agregando al package
+
+para instalar un paquete que solo se use en desarrollo al npm i paquete: debo continuarlo con --save-dev
+
+"base3": "node app --base3"
+Base3 se ejecuta como - npm run base3
+
+npm i paquete
+npm install paqueta
+npm i paquete@v.v.v (version)
+npm unistall paquete
+npm update -> actualiza todos los paquetes a la ultima versión.
+
+No tocar "node_modules" directamente.
+
+Yargs
+=====
+
+los parametros se pueden pasar como "--xxxx" o "-x" Si se usa doble guión, se debe continuar con el nombre completo.
+Si se usa un - solo, se puede usar una letra abreviada.
+
+///////////////
+
+GIT
+
+Crear archivo .gitignore
+Este archivo contiene todo lo que se va a ignorar al subir el proyecto a GIT.
+
+Archivos "info.md" son archivos de texto para especificar el contenido de las carpetas.
+
+
+Para bajar de nuevo los paquetes "node_modules" tengo que usar el comando "npm install" y baja todo de nuevo.
