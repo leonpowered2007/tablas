@@ -34,3 +34,18 @@ Archivos "info.md" son archivos de texto para especificar el contenido de las ca
 
 
 Para bajar de nuevo los paquetes "node_modules" tengo que usar el comando "npm install" y baja todo de nuevo.
+
+
+Para inicializar el proyecto y crearlo en GIT
+git init 
+
+Para agregar los archivos al proyecto git 
+git add .
+
+Para subir los cambios
+git commit -m "MENSAJE COMMIT"
+
+Para resotear la ultima versión
+git checkout -- .
+
+
